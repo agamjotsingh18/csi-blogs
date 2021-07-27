@@ -49,7 +49,7 @@
   .content {
     height: 100%;
     display: flex;
-    margin-top: 32px;
+   
     padding: 9px;
     position: relative;
   }
@@ -136,4 +136,10 @@
   
   .footer a {
     color: white;
+  }
+
+  @media(max-width: 991px){ 
+    .content{
+      padding-top: 170px;
+    }
   }
